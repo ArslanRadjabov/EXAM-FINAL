@@ -1,0 +1,165 @@
+.offcanvas{
+    &::-webkit-scrollbar{
+        width: 0px;
+    }
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 15px 15px;
+    width: 300px;
+    .offcanvas__title{
+        margin-top: 20px;
+        text-align: left;
+        font-size: 16px;
+        color: #bac34e;
+        margin-bottom: 20px;
+    }
+    .offcanvas__email{
+        border: 1px solid rgba(175, 173, 173, 0.63);
+        border-radius: 5px;
+        font-size: 14px;
+        width: 250px;
+        padding: 0.5rem 1rem;
+        margin-bottom: 15px;
+        &:focus{
+            outline: none;
+        }
+    }
+    .offcanvas__password{
+        position: relative;
+        img{
+            position: absolute;
+            right: 15px;
+            top: 5px;
+        }
+    }
+    .offcanvas__check-login{
+        align-items: center;
+        p{  
+            margin: 0;
+            font-size: 12px;
+        }
+        .offcanvas__checkbox-text{
+            gap: 10px;
+            align-items: center;
+            margin-right: 40px;
+        }
+    }
+    .offcanvas__checkbox-text{
+            gap: 10px;
+            align-items: center;
+            margin-right: 40px;
+    }
+    .offcanvas__login-link{
+        border: none;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: #bac34e;
+        border-color: #bac34e;
+        padding: 10px 15px 7px 15px;
+        display: inline-block;
+        justify-content: center;
+        transition: all 0.3s;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+        width: 250px;
+        text-decoration: none;
+        &:active{
+            background-color:#0A472E;
+        }   
+    }
+    .offcanvas__social-group{
+        gap: 7px;
+        .offcanvas__social-item{
+            font-size: 15px;
+            padding: 8px 12px;
+            border: solid 1px  transparent;
+            border-radius: 50%;
+            color: #fff;
+            background-color: #50a8db;
+            transition: all ease 0.5s;
+            &:hover{
+                background-color: #fff;
+                color: rgb(42, 136, 165);
+                border: solid 1px rgb(35, 197, 209);
+            }
+            &:nth-child(2){
+                &:hover{
+                    background-color: #fff;
+                }
+                background-color: #4285F4;
+            }
+            &:nth-child(3){
+                &:hover{
+                    background-color: #fff;
+                }
+                background-color: #53D1F8;
+            }
+        }
+    }
+    .offcanvas__checkbox-text2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        p{
+            font-size: 12px;
+            margin: 0;
+        }
+    }
+    .offcanvas__flagside{
+        border-right: 1px solid rgb(180, 178, 178);
+        padding-right: 30px;
+    }
+    .offcanvas__lang-title{
+        font-size: 14px;
+        color: #AAA;
+    }
+    .offcanvas__flags{
+        cursor: pointer;
+        padding: 2px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        .offcanvas__flags-row{
+            gap: 10px;
+        }
+    }
+    .offcanvas__lang-title{
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .offcanvas__EUR_USD{
+        p{  
+            margin: 0 0 0 5px;
+            color: #aaa;
+            font-size: 13px;
+            margin-right: 10px;
+            cursor: pointer;
+            &:hover{
+                color: #bac34e;
+            }
+        }
+    }
+    .offcanvas__list{
+
+        @include list-unstyled;
+        .offcanvas__list-item{
+            margin-left: 20px;
+            a{  
+                align-items: center;
+                color: #aaa;
+                font-size: 14px;
+                text-decoration: none;
+                .bx{
+                    margin-right: 5px;
+                }
+                &:hover{
+                    color: #bac34e;
+                } 
+            }
+        }
+    }   
+}
