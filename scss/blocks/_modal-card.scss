@@ -1,0 +1,105 @@
+
+.modal-content{
+  width: 1030px;
+  height: 560px;
+  left: -50%;
+  border-radius: 0px;
+}
+.modal-button-close{
+  border: none;
+  font-size: 25px;
+  color: #aaa;
+  position: relative;
+  right: -15px;
+  top: -10px;
+    background-color: transparent;
+}
+.modal-button-close:hover{
+  color: $hover-text;
+}
+.product-modal-header{
+  border-bottom: none;
+  justify-content: end;
+}
+.modal-img{
+  border: 1px solid rgba(170, 170, 170, 0.315);
+  border-radius: 5px;
+}
+.modal-small-img{
+  object-fit: cover;
+  width: 80px;
+  height: 70px;
+  border: 1px solid $hover-text;
+  border-radius: 5px;
+}
+.modal-title{
+  font-size: 22px;
+  width: 450px;
+  line-height: 25px;
+}
+.modal-price{
+  font-size: 24px;
+  font-weight: 700;
+  color: #e0bf96;
+}
+.modal-desc{
+  color: #aaa;
+  font-size: 15px;
+}
+.modal-input{
+  width: 115px;
+  height: 46px;
+  border: 1px solid rgba(170, 170, 170, 0.466);
+  border-radius: 30px;
+  padding-left: 20px;
+}
+.modal-input:focus{
+  outline: none;
+}
+.modal-card-link{
+  @include decoration-none();
+  font-size: 12px;
+  background-color: $hover-text;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 18px 55px;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+}
+.modal-card-link:hover{
+  background-color: $green-color;
+  color: #fff;
+}
+.modal-list__icon--second{
+    color: #55acee;
+  }
+  .modal-list__icon--third{
+    color: #cb2027;
+  }
+.modal-wish-link{
+  @include decoration-none();
+  color: #000;
+  font-size: 14px;
+  transition: all 0.4s ease;
+}
+.modal-wish-link:hover{
+  color: $hover-text;
+}
+.modal-wish-link:hover .modal-card-icon{
+  color: $hover-text;
+}
+.modal-link-wrapper{
+  border-bottom: 1px solid rgba(170, 170, 170, 0.39);
+}
+.modal-list__title{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.modal-list__icon{
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.modal-list__icon:hover{
+  transform: scale(1.2);
+}

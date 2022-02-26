@@ -1,0 +1,226 @@
+.decard{
+    position: relative;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    .decard-left{
+        transition: all ease 0.5s;
+        padding: 10px;
+        
+    }
+    .decard-middle{
+        .decard__middle-img{
+            padding: 0 10px;
+            padding-bottom: 22px;
+            .decard__text-box{
+                z-index: 999;
+            }
+        }
+        .decard__little-1{
+            padding: 0 10px;
+            .decard__text-box{
+                z-index: 999;
+            }
+        }
+    }
+    .decard-right{
+        padding: 10px;
+        .decard__text-box{
+            z-index: 999;
+        }
+    }
+    .decard-left-inside{
+        position: relative;
+    }
+    .decard-left-inside::after{
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 0%;
+        height: 0%;
+        z-index: 99;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.205);
+        transition: all ease 0.5s !important;
+    }
+    .decard-left-inside::before{
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0%;
+        height: 0%;
+        z-index: 99;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.226);
+        transition: all ease 0.5s;
+    }
+    .decard-left-inside:hover::after{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .decard-left-inside:hover::before{
+        width: 100%;
+        height: 100%;
+    }
+}
+.decard__text-box{
+    z-index: 99;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    .decard__title {
+        width: 100%;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 400;
+        padding-bottom: 20px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .decard__line{
+        margin: 0 auto;
+        width: 50%;
+        background-color: #fff;
+        height: 2px;
+        transition: all ease 0.5s;
+    } 
+}
+.decard-left:hover{    
+    .decard__line{
+        transition: all ease 0.5s;
+        width: 100%;
+    }
+}
+.decard__middle-img:hover{
+    .decard__line{
+        transition: all ease 0.5s;
+        width: 100%;
+    }
+}
+.decard-right:hover{
+    
+    .decard__line{
+        transition: all ease 0.5s;
+        width: 100%;
+    }
+}
+.decard-left-inside:hover{
+    .decard__line{
+        transition: all ease 0.5s;
+        width: 100%;
+    }
+}
+.text-box-bottom{
+    position: absolute;
+    left: 40px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+    .decard{
+        .decard__middle-img{
+            
+            .decard__text-box{
+                left: 15% !important;
+                top: 40% !important;
+            }
+        }
+        .text-box-bottom {
+            position: absolute;
+            left: 20px !important;
+        }
+        .decard__text-box:nth-child(2){
+            position: absolute;
+            left: 7% !important;
+        }
+        .box-2{
+            position: absolute;
+            left: 10% !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .decard{
+        display: flex;
+        flex-direction: column !important;
+        .decard__middle-inside-img{
+            flex-direction: column;
+        }
+        .decard-left{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 70vh;
+                object-fit: cover;
+                object-position: (50% , 20%);
+            }
+        }
+        .decard-right{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 40vh;
+                object-fit: cover;
+                object-position: (50% , 20%);
+            
+            }
+            .decard__text-box{
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .decard-middle{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 30vh;
+                object-fit: cover;
+                object-position: (50% , 20%);
+            }
+
+        }
+        .decard-left-inside{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 30vh;
+                object-fit: cover;
+                object-position: (50% , 20%);
+                margin-bottom: 20px;
+            }
+        }
+        .decard__middle-img{
+            
+        .decard__text-box{
+            left: 15%;
+        }
+        }
+        .text-box-bottom {
+            position: absolute;
+            left: 15% !important;
+        }
+        .decard__text-box{
+            left: 35%;
+        }
+        .decard-left-inside::before{
+            display: none;
+        }
+        .decard-left-inside::after{
+            display: none;
+        }
+    }
+
+}

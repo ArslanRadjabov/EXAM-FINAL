@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  
   background-image: url('../../images/bgbody_top.jpg');
   background-position: top;
   background-repeat: no-repeat;
@@ -24,6 +23,7 @@ body {
   overflow-x: hidden;
   font-family: $font-body;
   background-color: #FCF3EA;
+  
 }
 
 img {
@@ -37,4 +37,18 @@ img {
 .container-fluid{
   width: 1400px;
   margin: 0 auto !important;
+}
+
+.time-options{
+  position: fixed;
+  right: -40px;
+  z-index: 999;
+  top: 40%;
+  transform: rotateZ(-90deg);
+  padding: 10px;
+  background-color: $green-color;
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
 }

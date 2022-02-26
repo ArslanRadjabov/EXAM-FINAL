@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body class="bg-white" style="background-image: none;">
+    <div class="time-options">
+        <a href="#">Time options</a>
+      </div>
+    <div class="container bg-white">
+        <div class="header">
+            <div class="header__main">
+
+                <!-- --------responsive-navbar----menu- started------ -->
+                <button class="header__menu-barbx" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class='bx bx-menu'></i>
+                </button>
+
+
+                <div class="offcanvas offcanvas-start responsive__main-navbar" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset navbar-close-btn d-flex"
+                            data-bs-dismiss="offcanvas" aria-label="Close"><i class='bx bx-x'></i> Close</button>
+                    </div>
+                    <div class="offcanvas-body responsive">
+                        <div class="responsive__navbar">
+                            <ul class="responsive__list">
+                                <li class="responsive__item d-flex"><a href="#">Home</a>
+                                    <div id="openModal" class="responsive__home-btn next-btn"> <i
+                                            class='bx bx-chevrons-right' style='color:#ffffff'></i></div>
+                                </li>
+                                <li class="responsive__item d-flex"><a href="#">Shop</a>
+                                    <div id="openshopz" class="responsive__shop-btn next-btn"><i
+                                            class='bx bx-chevrons-right' style='color:#ffffff'></i></div>
+                                </li>
+                                <li class="responsive__item d-flex"><a href="#">Pages</a>
+                                    <div id="openpages" class="responsive__page-btn next-btn"><i
+                                            class='bx bx-chevrons-right' style='color:#ffffff'></i>
+                                    </div>
+                                </li>
+                                <li class="responsive__item"><a href="#">Blog</a></li>
+                                <li class="responsive__item"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- --------------------home-responsive-inside-menu-start--------------- -->
+
+                <div id="home-inside" class="home homeinside">
+                    <div class="home__back d-flex" id="close-btn">
+                        <i class='bx bxs-chevrons-left'></i>
+                        <p class="home__back-text">Back to home</p>
+                    </div>
+                    <ul class="home__item-list">
+                        <li class="home__item-item"><a href="#">Home 1</a></li>
+                        <li class="home__item-item"><a href="#">Home 2</a></li>
+                        <li class="home__item-item"><a href="#">Home 3</a></li>
+                        <li class="home__item-item"><a href="#">Home 4</a></li>
+                        <li class="home__item-item"><a href="#">Home 5</a></li>
+                        <li class="home__item-item"><a href="#">Home 6</a></li>
+                        <li class="home__item-item"><a href="#">Home 7</a></li>
+                        <li class="home__item-item"><a href="#">Home 8</a></li>
+                    </ul>
+                </div>
+
+                <!-- ---------------------------shop-inside-menu modal------------------------------------------------- -->
+
+                <div id="shop-inside" class="shop shopinside">
+                    <div class="home__back d-flex" id="closeshopp">
+                        <i class='bx bxs-chevrons-left'></i>
+                        <p class="home__back-text">Back to home</p>
+                    </div>
+                    <ul class="shop-item-list">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Category 1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="supply supply__list">
+                                            <li class="supply__item">Vegetables</li>
+                                            <li class="supply__item">Fresh Meet</li>
+                                            <li class="supply__item">Fruit & Nuts Gifts</li>
+                                            <li class="supply__item">Fresh Berries</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Category 2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="supply supply__list">
+                                            <li class="supply__item">Beaf</li>
+                                            <li class="supply__item">Pork</li>
+                                            <li class="supply__item">Coconut</li>
+                                            <li class="supply__item">Broccoli</li>
+                                            <li class="supply__item">Fish</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Category 3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="supply supply__list">
+                                            <li class="supply__item">Seafood</li>
+                                            <li class="supply__item">Octopus</li>
+                                            <li class="supply__item">Fish</li>
+                                            <li class="supply__item">More</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Category 4
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul class="supply supply__list">
+                                            <li class="supply__item">Vegetables</li>
+                                            <li class="supply__item">Fish Meet</li>
+                                            <li class="supply__item">Fruit & Nuts Gifts</li>
+                                            <li class="supply__item">Fresh Berries</li>
+                                            <li class="supply__item">More</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <!-- ------------------------------page-inside-menu-modal---------------------------------------------------- -->
+                <div id="page-inside" class="pageinside">
+                    <div class="home__back d-flex" id="closepages">
+                        <i class='bx bxs-chevrons-left'></i>
+                        <p class="home__back-text">Back to home</p>
+                    </div>
+                    <ul class="pages__list">
+                        <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                        <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                        <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                        <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                        <li class="pages___item"><a href="#"><img src="images/pages/page2.jpg" alt=""></a></li>
+                        <li class="pages___item"><a href="#"><img src="images/pages/page3.jpg" alt=""></a></li>
+                        <li class="pages___item"><a href="#"><img src="images/pages/page3.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+
+
+                <!-- -- --------responsive-navbar----menu--end----   -->
+
+
+                <a class="header__logo" href="#"><img src="images/freshio-logo.jpg" alt="logo"></a>
+                <div class="header__search input ">
+                    <i class='input__bx bx bx-search input__search-btn'></i>
+                    <input class="input__text about__input" type="text" placeholder="Enter keyword">
+                    <button class="input__btn about__input-btn" type="submit">Search</button>
+                </div>
+
+                <div class="header__social about__socials social d-flex col-lg-3 col-md-2 col-xs-2">
+                    <div class="header__about-call">
+                        <i class='bx bx-headphone'></i>
+                        <div class="header__about-text">
+                            <p>CALL US 24/7</p>
+                            <h4>(1800)-88-66-991</h4>
+                        </div>
+                    </div>
+                    <div class="social-bx user-bx" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight">
+                        <i class="fal fa-user-alt"></i>
+                    </div>
+                    <div class="social-bx heart-bx">
+                        <div class="social-numeral">0</div>
+                        <i class="fal fa-heart"></i>
+                    </div>
+                    <div class="social-bx shopping-bx">
+                        <div class="social-numeral2">0</div>
+                        <i class="fal fa-shopping-basket"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------------offcanvas login modal started------------------------------ -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <img src="images/freshio-logo.jpg" alt="">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas__login">
+                <h3 class="offcanvas__title">Existing Account Login</h3>
+                <form action="#">
+                    <input class="offcanvas__email" type="email" placeholder="Email Address">
+                    <div class="offcanvas__password d-flex">
+                        <input class="offcanvas__email" type="password" placeholder="Password">
+                        <img src="images/key-icon.svg" alt="key" width="30" height="30">
+                    </div>
+                    <div class="offcanvas__check-login d-flex">
+                        <div class="offcanvas__checkbox-text d-flex">
+                            <input type="checkbox" class="offcanvas__checkbox">
+                            <p>Remember me</p>
+                        </div>
+                        <p>Forgot Password ?</p>
+                    </div>
+                    <button type="submit" class="offcanvas__login-link" href="#">Login</button>
+                </form>
+            </div>
+            <h3 class="offcanvas__title">Connect with Social Networks</h3>
+            <div class="offcanvas__social-group d-flex">
+                <div class="offcanvas__social-item"><i class='bx bxl-facebook'></i></div>
+                <div class="offcanvas__social-item"><i class='bx bxl-google'></i></div>
+                <div class="offcanvas__social-item"><i class='bx bxl-twitter'></i></i></div>
+            </div>
+            <h3 class="offcanvas__title">New Account Register</h3>
+            <form action="#">
+                <input class="offcanvas__email" type="text" placeholder="First Name" required>
+                <input class="offcanvas__email" type="text" placeholder="Last Name" required>
+                <input class="offcanvas__email" type="email" placeholder="Email Address" required>
+                <div class="offcanvas__password d-flex">
+                    <input class="offcanvas__email" type="password" placeholder="Password" required>
+                    <img src="images/key-icon.svg" alt="key" width="30" height="30">
+                </div>
+                <div class="offcanvas__checkbox-text2 d-flex">
+                    <input type="checkbox" class="offcanvas__checkbox">
+                    <p>I agree to the terms</p>
+                </div>
+                <button type="submit" class="offcanvas__login-link mb-4" href="#">Create an Account</button>
+            </form>
+            <div class="offcanvas__bottom d-flex">
+                <div class="offcanvas__flagside">
+                    <p class="offcanvas__lang-title">Language</p>
+                    <div class="offcanvas__flags">
+                        <div class="offcanvas__flags-row d-flex">
+                            <img src="images/flags/1.jpg" alt="flag1">
+                            <img src="images/flags/2.jpg" alt="flag1">
+                            <img src="images/flags/3.jpg" alt="flag1">
+                        </div>
+                        <div class="offcanvas__flags-row d-flex">
+                            <img src="images/flags/4.jpg" alt="flag1">
+                            <img src="images/flags/5.jpg" alt="flag1">
+                            <img src="images/flags/6.jpg" alt="flag1">
+                        </div>
+                    </div>
+                    <p class="offcanvas__lang-title">Currency:</p>
+                    <div class="offcanvas__EUR_USD d-flex">
+                        <p>EUR</p>
+                        <p>USD</p>
+                    </div>
+                </div>
+                <div class="offcanvas__right-list">
+                    <ul class="offcanvas__list">
+                        <li class="offcanvas__list-item"><a href="#"><i class='bx bx-exit'></i>Sign in</a></li>
+                        <li class="offcanvas__list-item"><a href="#"><i class='bx bx-user'></i>My Accaount</a></li>
+                        <li class="offcanvas__list-item"><a href="#"><i class='bx bx-heart'></i>Wishlist</a></li>
+                        <li class="offcanvas__list-item"><a href="#"><i class='bx bx-copy'></i>Compare</a></li>
+                        <li class="offcanvas__list-item"><a href="#"><i class='bx bx-check-square'></i>Checkout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------modal ----end------------------- -->
+
+
+    <div class="header__block">
+        <div class="container">
+            <div class="header__about-block">
+                <div class="header__minimenu about__page-minimenu">
+
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class='bx bx-menu' style='color:#ffffff'></i>
+                            <h4 class="header__title">Shop by Department</h4>
+                        </a>
+        
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="transform: translate(10 , 20,);">
+                            <i class='bx bxs-up-arrow' style='color:#ffffff'></i>
+                            <li><a class="dropdown-item" href="#"><i class="fal fa-salad"></i>Fruit & Vegetables</a></li>
+                            <li class="dropdown-list"><a class="dropdown-item" href="#"><i class="fal fa-meat"></i>Supplyment <i
+                                        class='bx bx-chevron-right' style='color:#d2cece'></i></a>
+                                <div class="supply supply__hover">
+                                    <ul class="supply__list">
+                                        <li class="supply__item">Vegetables</li>
+                                        <li class="supply__item">Fresh Meet</li>
+                                        <li class="supply__item">Fruit & Nuts Gifts</li>
+                                        <li class="supply__item">Fresh Berries</li>
+                                    </ul>
+                                </div>
+                            </li>
+        
+                            <li class="dropdown-list"><a class="dropdown-item" href="#"><i class="fal fa-egg-fried"></i>Dairy
+                                    Bread & Eggs <i class='bx bx-chevron-right' style='color:#d2cece'></i></a>
+                                <div class="supply supply__hover second-menu">
+                                    <ul class="supply__list">
+                                        <li class="supply__item">Egg sandwitch</li>
+                                        <li class="supply__item">Easter Bread</li>
+                                        <li class="supply__item">Portugese sweet bread</li>
+                                        <li class="supply__item">Challah</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fal fa-pizza-slice"></i>Package & Foods</a></li>
+                            <li class="dropdown-list"><a class="dropdown-item" href="#"><i class="fal fa-apple-alt"></i>Beauty &
+                                    care <i class='bx bx-chevron-right' style='color:#d2cece'></i></a>
+                                <div class="supply supply__hover third-menu">
+                                    <ul class="supply__list">
+                                        <li class="supply__item">Challah</li>
+                                        <li class="supply__item">Fat Freezing</li>
+                                        <li class="supply__item">Skin Resurfacing</li>
+                                        <li class="supply__item">Eyelash Extensions</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fal fa-apple-alt"></i>Baby & Infant</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fal fa-volleyball-ball"></i>Home Care</a></li>
+                            <li><a class="dropdown-item last-dropdown" href="#"><i class="fal fa-ice-cream"></i>Hot Offers</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                </div>
+                <nav class="header header__nav navbar">
+                    <ul class="header__list">
+                        <li class="header__item home"><a class="header__link" href="#">Home<i
+                                    class='bx bx-chevron-down'></i></a>
+                            <div class="header__item-dropdown">
+                                <ul class="header__item-list">
+                                    <li class="header__item-item"><a href="#">Home 1</a></li>
+                                    <li class="header__item-item"><a href="#">Home 2</a></li>
+                                    <li class="header__item-item"><a href="#">Home 3</a></li>
+                                    <li class="header__item-item"><a href="#">Home 4</a></li>
+                                    <li class="header__item-item"><a href="#">Home 5</a></li>
+                                    <li class="header__item-item"><a href="#">Home 6</a></li>
+                                    <li class="header__item-item"><a href="#">Home 7</a></li>
+                                    <li class="header__item-item"><a href="#">Home 8</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__item shop"><a class="header__link" href="#">Shop<i
+                                    class='bx bx-chevron-down'></i></a>
+                            <div class="shop__menu">
+                                <div class="shop__manu-main">
+                                    <ul class="shop__list">
+                                        <li class="shop__item shop__title"><a href="#">Categories</a></li>
+                                        <li class="shop__item"><a href="#">Vegatable</a></li>
+                                        <li class="shop__item"><a href="#">Tomato</a></li>
+                                        <li class="shop__item"><a href="#">Cabbage</a></li>
+                                        <li class="shop__item"><a href="#">Juice</a></li>
+                                        <li class="shop__item"><a href="#">Meat</a></li>
+                                    </ul>
+                                    <ul class="shop__list">
+                                        <li class="shop__item shop__title"><a href="#">Categories</a></li>
+                                        <li class="shop__item"><a href="#">Vegatable</a></li>
+                                        <li class="shop__item"><a href="#">Tomato</a></li>
+                                        <li class="shop__item"><a href="#">Cabbage</a></li>
+                                        <li class="shop__item"><a href="#">Juice</a></li>
+                                        <li class="shop__item"><a href="#">Meat</a></li>
+                                    </ul>
+                                    <ul class="shop__list">
+                                        <li class="shop__item shop__title"><a href="#">Categories</a></li>
+                                        <li class="shop__item"><a href="#">Vegatable</a></li>
+                                        <li class="shop__item"><a href="#">Tomato</a></li>
+                                        <li class="shop__item"><a href="#">Cabbage</a></li>
+                                        <li class="shop__item"><a href="#">Juice</a></li>
+                                        <li class="shop__item"><a href="#">Meat</a></li>
+                                    </ul>
+                                    <ul class="shop__list">
+                                        <li class="shop__item shop__title"><a href="#">Categories</a></li>
+                                        <li class="shop__item"><a href="#">Vegatable</a></li>
+                                        <li class="shop__item"><a href="#">Tomato</a></li>
+                                        <li class="shop__item"><a href="#">Cabbage</a></li>
+                                        <li class="shop__item"><a href="#">Juice</a></li>
+                                        <li class="shop__item"><a href="#">Meat</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__item pages"><a class="header__link" href="#">Pages<i class='bx bx-chevron-down'></i></a>
+                            <div class="pages__menu">
+                                <ul class="pages__list">
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page1.jpg" alt=""></a></li>
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page2.jpg" alt=""></a></li>
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page3.jpg" alt=""></a></li>
+                                    <li class="pages___item"><a href="#"><img src="images/pages/page3.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+        
+                        </li>
+                        <li class="header__item"><a class="header__link" href="#">Blog</a></li>
+                        <li class="header__item"><a class="header__link" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__main">
+                <span>Home > </span>
+                <span>About us</span>
+            </div>
+        </div>
+    </section>
+    <section class="aboutus">
+        <div class="container">
+            <div class="aboutus__header">
+                <h2>Abour us</h2>
+                <div class="aboutus__desc d-flex">
+                    <div class="aboutus__first-p col-lg-4 col-md-4 col-sm-12">
+                        <h4>About us</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, tempore!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, numquam accusantium quaerat voluptate nihil impedit, tempore eius magnam sequi voluptatem veritatis eos fuga enim hic fugiat ad expedita molestiae praesentium.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit aliquam sapiente laboriosam accusamus</p>
+                    </div>
+                    
+                    <div class="aboutus__first-p col-lg-4 col-md-4 col-sm-12">
+                        <h4>Our team</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, tempore!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, numquam accusantium quaerat voluptate nihil nim hic fugiat ad expedita molestiae praesentium.</p>
+                    </div>
+                    
+                    <div class="aboutus__first-p col-lg-4 col-md-4 col-sm-12">
+                        <h4>Testimonials</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, tempore!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, numquam accusantium quaerat voluptate nihil impedit, tempore eius magnam sequi voluptatem veritatis eos fuga enim hic fugiat ad expedita molestiae praesentium.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prefooter">
+        <div class="container">
+            <div class="d-flex prefooter__main">
+                <div class="prefooter__contact-main d-flex">
+                    <div class="prefooter__contact " style="transform: scale(1.1);">
+                        <i class='bx bx-headphone'></i>
+                        <div class="header__about-text">
+                            <p>CALL US 24/7</p>
+                            <h4>(1800)-88-66-991</h4>
+                        </div>
+                    </div>
+                    <div class="prefooter__contact " style="transform: scale(1.1);">
+                        <i class='bx bx-mail-send'></i>
+                        <div class="header__about-text">
+                            <p>CALL US 24/7</p>
+                            <h4>(1800)-88-66-991</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prefooter__socials d-flex">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-youtube'></i>
+                    <i class='bx bxl-instagram'></i>
+                </div>
+
+                <img src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_payment_image.png?v=1604630477" alt="cards">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="footer-top d-flex flex-wrap about__footer">
+              <div class="footer-logo col-12 col-md-4 col-lg-3">
+                <img src="images/freshio-logo.jpg" alt="">
+              </div>
+              
+             <div class="footer__list col-12 col-md-4 col-lg-3">
+                <h4 class="footer__title">Store Location</h4>
+                
+                <p class="footer__text">
+                  <span class="footer__time">
+                    Monday - Saturday:</span>8:00 am - 4:00pm</p>
+                <p class="footer__text">
+                  <span class="footer__time">Sunday:</span>9:00 am - 5:00pm
+                </p>
+              </div>
+              <div class="footer__list col-12 col-md-4 col-lg-2">
+                <ul class="footer__list">
+                  <h4 class="footer__title">Store Location</h4>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">About us</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">
+                      Blog</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">
+                      Check out
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">
+                      Contact
+                    </a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">
+                      Service
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__list col-12 col-md-4 col-lg-2">
+                <ul class="footer__list">
+                  <h4 class="footer__title">my account</h4>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">My Account</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Contact</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Shopping cart</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Shop</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__list col-12 col-md-4 col-lg-2">
+                <ul class="footer__list">
+                  <h4 class="footer__title">Categories</h4>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Fruits & Vegetables</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Dairy Products</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Package Foods</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Beverage</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Beverage</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer__text">
+            Copyright © 2021
+            <span class="footer-bottom__span">
+              Freshio
+            </span>
+            . All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+
+          <!-- -----------------------------------Bottom-menu-bar----------------------------------- -->
+    <div class="bottom-menu">
+        <ul class="bottom-menu__list">
+          <li class="bottom-menu__item">
+            <i class='bx bx-store'></i>
+            <span class="bottom-menu__title">shop</span>
+          </li>
+          <li class="bottom-menu__item">
+            <i class='bx bx-heart' ></i>
+            <span class="bottom-menu__title">wishlist</span>
+          </li>
+          <li class="bottom-menu__item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+            <i class='bx bx-user'></i>
+            <span class="bottom-menu__title">account</span>
+          </li>
+          <li class="bottom-menu__item">
+            <i class='bx bx-search'></i>
+            <span class="bottom-menu__title">search</span>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- --------------------------------------bottom-menu bar---------------------- -->
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>

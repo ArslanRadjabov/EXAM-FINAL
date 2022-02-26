@@ -1,0 +1,357 @@
+.header__about-call {
+    display: flex;
+    flex-direction: row;
+
+    i {
+        color: #bac34e;
+        font-size: 45px;
+        position: relative;
+        right: 4px;
+        top: 5px;
+    }
+
+    .header__about-text {
+        width: 200px;
+
+        p {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2.4px;
+            color: #000;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+    }
+
+    h4 {
+        margin-bottom: 0;
+        color: #bac34e;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.header__search {
+    margin-right: 150px;
+}
+
+.about__page-minimenu {
+    width: 300px;
+    margin: 5.5px 0;
+    padding: 5px 20px;
+    text-transform: none;
+    font-size: 14px;
+    color: #FFF;
+    background-color: #bac34e;
+    border-radius: 30px;
+    cursor: pointer;
+
+    .bx {
+        position: relative;
+        top: 10px !important;
+    }
+
+    .header__title {
+        border: none !important;
+    }
+}
+
+.header__block {
+    width: 100%;
+}
+
+.header__about-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__socials {
+    gap: 5px !important;
+
+    .social-bx {
+        padding: 10px 15px;
+    }
+}
+
+.about__input {
+    width: 500px !important;
+    margin-left: 40px !important;
+
+}
+
+.input__search-btn {
+    left: 60px !important;
+}
+
+.about__input-btn {
+    top: 12px !important;
+}
+
+.about {
+    position: relative;
+    align-items: center;
+    background-image: url('../../images/about-hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 150px 0;
+    height: 40vh;
+
+    .about__main {
+        position: absolute;
+        top: 50%;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            font-size: 14px;
+            cursor: pointer;
+            transition: all ease 0.5s;
+
+            &:hover {
+                transition: all ease 0.5s;
+                color: $hover-text;
+            }
+        }
+    }
+}
+
+.aboutus__desc {
+    p {
+        font-size: 14px;
+        color: #aaa;
+    }
+}
+
+
+.prefooter__main {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    img {
+
+        transition: all ease 0.5s;
+
+        &:hover {
+            transition: all ease 0.5s;
+            opacity: 0.5;
+        }
+    }
+}
+
+.prefooter__socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    left: -80px;
+
+    .bx {
+        font-size: 20px;
+        color: $hover-text;
+
+        &:hover {
+            color: $green-color;
+        }
+    }
+}
+
+
+.prefooter__contact {
+    display: flex;
+    flex-direction: row;
+
+    i {
+        color: #bac34e;
+        font-size: 45px;
+        position: relative;
+        right: 4px;
+        top: 5px;
+    }
+
+    .header__about-text {
+        width: 200px;
+
+        p {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2.4px;
+            color: #000;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+    }
+
+    h4 {
+        margin-bottom: 0;
+        color: #bac34e;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+}
+
+.footer-logo {
+    justify-content: center;
+    align-items: center;
+
+    img {
+        position: relative;
+        top: 10%;
+        left: 15%;
+    }
+}
+
+.about__footer {
+    position: relative;
+}
+
+.about {
+    .dropdown-menu {
+        .bxs-up-arrow {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+@media screen and(max-width: 576px) {
+    .header__about-call {
+        display: none;
+    }
+
+    .header__main {
+        padding: 15px 0 !important;
+    }
+
+    .aboutus__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prefooter__main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        .prefooter__contact-main {
+            position: relative;
+            left: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .prefooter__socials {
+            left: 0 !important;
+        }
+    }
+
+    .header__block .header__minimenu .dropdown-menu .dropdown-item {
+        padding-right: 200px !important;
+
+    }
+}
+
+
+
+@media screen and(max-width: 764px) {
+    .header__about-call {
+        display: none;
+    }
+
+    .header__main {
+        padding: 15px 0 !important;
+    }
+
+    .aboutus__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prefooter__main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .prefooter__contact-main {
+            position: relative;
+            left: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .prefooter__socials {
+            left: 0 !important;
+        }
+    }
+
+    .footer-logo {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+        img {
+            position: none;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+.footer-logo {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    img {
+        position: none;
+        left: 0;
+        top: 0;
+    }
+}
+
+.footer__list {
+    padding: 0 !important;
+}
+
+
+@media screen and (max-width: 960px) {
+    .header__about-call {
+        display: none;
+    }
+
+    .prefooter__socials {
+        display: none;
+    }
+
+    .header__main {
+        padding: 15px 0 !important;
+    }
+
+    .about__footer {
+        align-items: baseline !important;
+        position: relative;
+    }
+}
+
+.prefooter__main{
+    border-bottom: 1px solid rgba(117, 116, 116, 0.521);
+    margin-bottom: 50px;
+}
