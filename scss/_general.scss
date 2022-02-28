@@ -41,14 +41,70 @@ img {
 
 .time-options{
   position: fixed;
-  right: -40px;
+  right: -52px;
   z-index: 999;
   top: 40%;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
   transform: rotateZ(-90deg);
-  padding: 10px;
-  background-color: $green-color;
+  padding: 5px 10px;
+  background-color:#0A472E;
   a{
     color: #fff;
     text-decoration: none;
   }
+}
+
+.up__case{
+  padding: 5px 10px;
+  background-color: $hover-text;
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 43px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all ease 0.5s;
+  .bx{
+    transform: translateY(3px);
+  }
+  &:hover{
+    background-color: #000;
+    .bx{
+      color: #fff;
+      transition: all ease 0.5s;
+      
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+  .up__case{
+    padding: 5px 10px;
+    background-color: $hover-text;
+    color: #fff;
+    position: fixed;
+    bottom: 65px;
+    right: 43px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+    
+    .bx{
+      transform: translateY(3px);
+    }
+    &:hover{
+      background-color: #000;
+      .bx{
+        color: #fff;
+        transition: all ease 0.5s;
+        
+      }
+    }
+  }
+  
 }
