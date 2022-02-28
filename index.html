@@ -43,6 +43,7 @@
   </div>
   <main class="container bg-white">
     <div class="header">
+      <h1 class="visually-hidden">ARSLONBEK RADJABBOYEV</h1>
       <div class="header__main">
 
         <!-- --------responsive-navbar----menu- started------ -->
@@ -61,6 +62,21 @@
           <div class="offcanvas-body responsive">
             <div class="responsive__navbar">
               <ul class="responsive__list">
+
+
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+                <div class="mainheaders">
+                  <li class="pre-header__item">
+                    <a href="about.html">About</a>
+                  </li>
+                  <li class="pre-header__item">
+                    <a href="FAQ.html">FAQ</a>
+                  </li>
+                  <li class="pre-header__item">
+                    <a href="contact.html">Contact us</a>
+                  </li>
+                </div>
+                
                 <li class="responsive__item d-flex"><a href="#">Home</a>
                   <div id="openModal" class="responsive__home-btn next-btn"> <i class='bx bx-chevrons-right'
                       style='color:#ffffff'></i></div>
@@ -892,75 +908,94 @@
       </div>
     </section>
     <!-- ---------------------------------------------------------------------------------- -->
-    <section class="nature">
-      <div class="nature__main">
-        <div class="nature__img col-lg-6 col-md-6 col-sm-12">
-          <img src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn6.jpg?v=1630131658" alt="">
-        </div>
-        <div class="nature__desc col-lg-6 col-md-6 col-sm-12">
-          <h2 class="nature__title">A shop for good people by good people</h2>
-          <p class="nature__text">Buy natural, sustainable and chemicalfree products from local sellers across the
-            country.</p>
-          <div class="nature__text-bottom">
-            We are a strong community of 100,000+ customers and 600+ sellers who aspire to be good, do good, and spread
-            goodness. We are a democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on
-            community and quality content.</div>
-          <div class="nature__link d-flex">
-            <a href="#">Store Location</a>
-            <i class='bx bx-chevrons-right'></i>
+    <!-- --------------------------------GOOOD PEOPLE--section-------------------------------------------- -->
+      <section id="user" class="nature">
+        <div class="container">
+          <div class="nature__inner">
+            <ul class="nature__list d-flex col-12 flex-wrap">
+              <li class="nature__item col-sm-12 col-md-6 col-lg-6">
+                <div class="nature__imgbox">
+                  <img class="nature__img"
+                    src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn6.jpg?v=1630131658"
+                    alt="nature-img">
+                </div>
+              </li>
+              <li class="nature__item col-sm-12 col-md-6 col-lg-6">
+                <div class="nature__entry">
+                  <h3 class="nature__title">A shop for good people by good people</h3>
+                  <p class="nature__text">Buy natural, sustainable and chemicalfree products from local sellers across the
+                    country.</p>
+                  <p class="nature__text">We are a strong community of 100,000+ customers and 600+ sellers who aspire to be
+                    good, do good, and spread goodness. We are a democratic, self-sustaining, two-sided marketplace which
+                    thrives on trust and is built on community and quality content.</p>
+                  <a class="nature__link text-capitalize" href="#">store location <i
+                      class="nature__icon fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+              </li>
+            </ul>
+  
+            <ul class="nature__drops d-flex align-items-center col-12 flex-wrap">
+              <li class="nature__drop col-sm-12 col-md-6 col-lg-6">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                      class="active carusel-btn" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+                      class="carusel-btn"></button>
+                    <button class="carusel-btn" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <div class="nature__customer">
+                        <h3 class="nature__title">Why customer love us</h3>
+                        <p class="nature__text">“I have been a regular customer in Freshio and the reason is I get a
+                          variety of organic products and it gives me many options to choose from and the Quality of the
+                          produce is good.”</p>
+                        <span class="nature__store text-capitalize">pragya - bellandur store</span>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <div class="nature__customer">
+                        <h3 class="nature__title">Why customer love us</h3>
+                        <p class="nature__text">“I have been a regular customer in Freshio and the reason is I get a
+                          variety of organic products and it gives me many options to choose from and the Quality of the
+                          produce is good.”</p>
+                        <span class="nature__store text-capitalize">pragya - bellandur store</span>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="nature__customer">
+                        <h3 class="nature__title">Why customer love us</h3>
+                        <p class="nature__text">“I have been a regular customer in Freshio and the reason is I get a
+                          variety of organic products and it gives me many options to choose from and the Quality of the
+                          produce is good.”</p>
+                        <span class="nature__store text-capitalize">pragya - bellandur store</span>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+              </li>
+              <li class="col-sm-12 col-md-6 col-lg-6">
+                <div class="nature__imgbox">
+                  <img class="nature__img"
+                    src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn7.jpg?v=1630131658"
+                    alt="nature-img">
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="nature__second d-flex">
-        <div class="nature__carusel col-md-6 col-lg-6 col-sm-12">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button class="carusel__indicators" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button class="carusel__indicators" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button class="carusel__indicators" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="nature__carusel- carousel-item  active">
-                <h3>Why customer love us</h3>
-                <p>“I have been a regular customer in Freshio and the reason is I get a variety of organic products and
-                  it gives me many options to choose from and the Quality of the produce is good.”
-                </p>
-              </div>
-              <div class="nature__carusel- carousel-item ">
-                <h3>Why customer love us</h3>
-                <p>
-                  “I have been a regular customer in Freshio and the reason is I get a variety of organic products and
-                  it gives me many options to choose from and the Quality of the produce is good.”
-                </p>
-              </div>
-              <div class="nature__carusel- carousel-item ">
-
-                <h3>Why customer love us</h3>
-                <p>
-                  “I have been a regular customer in Freshio and the reason is I get a variety of organic products and
-                  it gives me many options to choose from and the Quality of the produce is good.”
-                </p>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <div class="nature__second-img col-lg-6 col-md-6 col-sm-12">
-          <img src="https://cdn.shopify.com/s/files/1/0740/5717/files/freshio_h2_bn7.jpg?v=1630131658" alt="">
-        </div>
-      </div>
+      </section>
     </section>
     <section class="adjective">
       <div class="adjective__list">
@@ -1003,9 +1038,7 @@
               <i class="fal fa-long-arrow-right"></i>
             </button>
           </div>
-
         </div>
-
       </div>
     </section>
     <footer class="footer">
@@ -1139,6 +1172,7 @@
 
     <!-- --------------------------------------bottom-menu bar---------------------- -->
 
+    <a class="up__case animate-animated animate__fadeInUp" href="#" style="animation-duration: 1.2s"><i class='bx bxs-chevrons-up'></i></a>
 
 
   <!-- hoverlarini tekshitishim va accardion iconkasini almashtirish link-hoverlarni tekshirish kerak  -->
