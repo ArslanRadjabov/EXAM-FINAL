@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 20px 2px;
 
     p {
+        font-size: 14px;
         margin: 0;
     }
 }
@@ -89,7 +90,7 @@
         background-color: #E8F8F7;
 
         &:nth-child(2) {
-            background-color: $bg-pink;
+            background-color: #f6f3e3;
         }
 
         &:nth-child(3) {
@@ -523,7 +524,8 @@
 }
 
 .homeinside {
-    width: 299px;
+    height: 100%;
+    width: 284px;
     z-index: 9999;
     position: absolute;
     top: 20px;
@@ -560,9 +562,21 @@
     }
 }
 
+.mainheaders{
+    .pre-header__item{
+        padding: 5px 0;
+        border: 1px solid #073522;
+        a{
+            color: #fff;    
+            text-decoration: none;
+            margin-left: 40px;
+        }
+    }
+}
+
 .shopinside {
     height: 100%;
-    width: 300px;
+    width: 285px ;
     z-index: 99999;
     position: absolute;
     top: 0px;
@@ -580,8 +594,11 @@
     .accordion {
         border: none !important;
         padding: 0 !important;
-        width: 300px;
+        width: 285px !important;
         color: #fff;
+        .accordion-button::after{
+            background-image: url('../../images/down.png') !important;
+        }
 
         .accordion-body {
 
